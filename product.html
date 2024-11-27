@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkt - HK-RFID-800</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="icon" type="image/png" href="favicon_32x32.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1e1e2f;
+            /* Dark background */
+            color: #e0e0e0;
+            /* Light text */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .product-box {
+            border: 1px solid #7a7a9f;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: #2a2a3c;
+        }
+
+        .product-title {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .image-box {
+            flex: 1;
+            text-align: center;
+            border-right: 1px solid #7a7a9f;
+            padding-right: 20px;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .info-box {
+            flex: 1.5;
+        }
+
+        .info-box h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .info-item {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .documents {
+            margin-top: 20px;
+        }
+
+        .documents h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .documents ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .documents li {
+            margin-bottom: 10px;
+        }
+
+        .documents a {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        .documents a:hover {
+            text-decoration: underline;
+        }
+        .dropdown {
+            position: absolute;
+            top: 20px;
+            right: 100px;
+        }
+    </style>
+</head>
+
+<body><div class="dropdown my-3">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="menuDropdown" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Menu
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+        <li><a class="dropdown-item" href="index.html">Hlavná stránka</a></li>
+                    <li><a class="dropdown-item" href="service.html">Špecializované opravovne</a></li>
+                    <li><a class="dropdown-item" href="software.html">Softvérová stránka</a></li>
+    </ul>
+</div>
+    <div class="container">
+        <!-- Product Box -->
+        <div class="product-box">
+            <!-- Title -->
+            <div class="product-title">Produktova stránka</div>
+
+            <!-- Main Content -->
+            <div class="row">
+                <!-- Image Section -->
+                <div class="image-box">
+                    <img src="bg2.png" alt="HK-RFID-800">
+                </div>
+
+                <!-- Technical Info Section -->
+                <div class="info-box">
+                    <h3>Technické údaje</h3>
+                    <div class="info-item">• Frekvencia: 865-868 MHz (ETSI normy pre UHF RFID)</div>
+                    <div class="info-item">• Vyžarovací výkon: max 10 dBm</div>
+                    <div class="info-item">• Rýchlosť čítania: max 10 karta za sek</div>
+                    <div class="info-item">• Komunikácia a napájanie: USB 2.0 pripojenie 5V 1A</div>
+                    <div class="info-item">• Hmotnosť: 170 g</div>
+                    <div class="info-item">• Dĺžka USB kábla: 10 cm</div>
+                    <div class="info-item">• Rozmery: 60 mm × 90 mm × 25 mm</div>
+                    <div class="info-item">• Pracovné podmienky: Tento výrobok je určený na vnútorné použitie</div>
+                    <div class="info-item">• Teplota: Teplota prostredia je od -10°C do 80°C</div>
+
+                </div>
+            </div>
+
+            <!-- Documents Section -->
+            <div class="documents">
+                <h4>Dokumenty</h4>
+                <ul>
+                    <li><a href="manual.pdf" target="_blank">Manual.pdf</a></li>
+                    <li><a href="Vyhlasenie o zhode.pdf" target="_blank">Vyhlásenie o zhode.pdf</a></li>
+                    <li><a href="Zaručny list.pdf" target="_blank">Záručný list.pdf</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
